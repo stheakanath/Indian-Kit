@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8DADE113F1A6A0000F0BA4 /* tabbarmoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8DADE013F1A6A0000F0BA4 /* tabbarmoney@2x.png */; };
+		EB9A5BDC13EB0C7E004B555F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDB13EB0C7E004B555F /* UIKit.framework */; };
+		EB9A5BDE13EB0C7E004B555F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDD13EB0C7E004B555F /* Foundation.framework */; };
+		EB9A5BE013EB0C7E004B555F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDF13EB0C7E004B555F /* CoreGraphics.framework */; };
+		EB9A5BE613EB0C7E004B555F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5BE413EB0C7E004B555F /* InfoPlist.strings */; };
+		EB9A5BE913EB0C7E004B555F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9A5BE813EB0C7E004B555F /* main.m */; };
+		EB9A5BEC13EB0C7E004B555F /* Indian_KitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9A5BEB13EB0C7E004B555F /* Indian_KitAppDelegate.m */; };
+		EB9A5BEF13EB0C7E004B555F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5BED13EB0C7E004B555F /* MainWindow.xib */; };
+		EB9A5BF213EB0C7E004B555F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9A5BF113EB0C7E004B555F /* FirstViewController.m */; };
+		EB9A5BF513EB0C7E004B555F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9A5BF413EB0C7E004B555F /* SecondViewController.m */; };
+		EB9A5BF813EB0C7E004B555F /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5BF613EB0C7E004B555F /* FirstView.xib */; };
+		EB9A5BFB13EB0C7E004B555F /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5BF913EB0C7E004B555F /* SecondView.xib */; };
+		EB9A5C0213EB0C7E004B555F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDB13EB0C7E004B555F /* UIKit.framework */; };
+		EB9A5C0313EB0C7E004B555F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDD13EB0C7E004B555F /* Foundation.framework */; };
+		EB9A5C0413EB0C7E004B555F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9A5BDF13EB0C7E004B555F /* CoreGraphics.framework */; };
+		EB9A5C0C13EB0C7E004B555F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5C0A13EB0C7E004B555F /* InfoPlist.strings */; };
+		EB9A5C0F13EB0C7E004B555F /* Indian_KitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EB9A5C0E13EB0C7E004B555F /* Indian_KitTests.h */; };
+		EB9A5C1113EB0C7E004B555F /* Indian_KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9A5C1013EB0C7E004B555F /* Indian_KitTests.m */; };
+		EBA35CA813EBA5C500AD5656 /* MoneyViewInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA35CA713EBA5C500AD5656 /* MoneyViewInfo.xib */; };
+		EBA35CAA13EBFAE500AD5656 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA35CA913EBFAE500AD5656 /* Default@2x.png */; };
+		EBA35CAC13EBFAEC00AD5656 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA35CAB13EBFAEC00AD5656 /* Default.png */; };
+		EBA35CB213EC020700AD5656 /* BackgroundMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA35CB113EC020700AD5656 /* BackgroundMoney@2x.png */; };
+		EBA35CB413EC022C00AD5656 /* BackgroundMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA35CB313EC022C00AD5656 /* BackgroundMoney.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9A5C0513EB0C7E004B555F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9A5BCE13EB0C7E004B555F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9A5BD613EB0C7E004B555F;
+			remoteInfo = "Indian Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB8DADE013F1A6A0000F0BA4 /* tabbarmoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarmoney@2x.png"; sourceTree = "<group>"; };
+		EB9A5BD713EB0C7E004B555F /* Indian Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9A5BDB13EB0C7E004B555F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB9A5BDD13EB0C7E004B555F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB9A5BDF13EB0C7E004B555F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB9A5BE313EB0C7E004B555F /* Indian Kit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indian Kit-Info.plist"; sourceTree = "<group>"; };
+		EB9A5BE513EB0C7E004B555F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB9A5BE713EB0C7E004B555F /* Indian Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indian Kit-Prefix.pch"; sourceTree = "<group>"; };
+		EB9A5BE813EB0C7E004B555F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB9A5BEA13EB0C7E004B555F /* Indian_KitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Indian_KitAppDelegate.h; sourceTree = "<group>"; };
+		EB9A5BEB13EB0C7E004B555F /* Indian_KitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indian_KitAppDelegate.m; sourceTree = "<group>"; };
+		EB9A5BEE13EB0C7E004B555F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EB9A5BF013EB0C7E004B555F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EB9A5BF113EB0C7E004B555F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EB9A5BF313EB0C7E004B555F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EB9A5BF413EB0C7E004B555F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EB9A5BF713EB0C7E004B555F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		EB9A5BFA13EB0C7E004B555F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		EB9A5C0113EB0C7E004B555F /* Indian KitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indian KitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9A5C0913EB0C7E004B555F /* Indian KitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indian KitTests-Info.plist"; sourceTree = "<group>"; };
+		EB9A5C0B13EB0C7E004B555F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB9A5C0D13EB0C7E004B555F /* Indian KitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indian KitTests-Prefix.pch"; sourceTree = "<group>"; };
+		EB9A5C0E13EB0C7E004B555F /* Indian_KitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Indian_KitTests.h; sourceTree = "<group>"; };
+		EB9A5C1013EB0C7E004B555F /* Indian_KitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indian_KitTests.m; sourceTree = "<group>"; };
+		EBA35CA713EBA5C500AD5656 /* MoneyViewInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyViewInfo.xib; sourceTree = "<group>"; };
+		EBA35CA913EBFAE500AD5656 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBA35CAB13EBFAEC00AD5656 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBA35CB113EC020700AD5656 /* BackgroundMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundMoney@2x.png"; sourceTree = "<group>"; };
+		EBA35CB313EC022C00AD5656 /* BackgroundMoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundMoney.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9A5BD413EB0C7E004B555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5BDC13EB0C7E004B555F /* UIKit.framework in Frameworks */,
+				EB9A5BDE13EB0C7E004B555F /* Foundation.framework in Frameworks */,
+				EB9A5BE013EB0C7E004B555F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9A5BFD13EB0C7E004B555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5C0213EB0C7E004B555F /* UIKit.framework in Frameworks */,
+				EB9A5C0313EB0C7E004B555F /* Foundation.framework in Frameworks */,
+				EB9A5C0413EB0C7E004B555F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9A5BCC13EB0C7E004B555F = {
+			isa = PBXGroup;
+			children = (
+				EBA35CB313EC022C00AD5656 /* BackgroundMoney.png */,
+				EBA35CB113EC020700AD5656 /* BackgroundMoney@2x.png */,
+				EB8DADE013F1A6A0000F0BA4 /* tabbarmoney@2x.png */,
+				EBA35CAB13EBFAEC00AD5656 /* Default.png */,
+				EBA35CA913EBFAE500AD5656 /* Default@2x.png */,
+				EB9A5BE113EB0C7E004B555F /* Indian Kit */,
+				EB9A5C0713EB0C7E004B555F /* Indian KitTests */,
+				EB9A5BDA13EB0C7E004B555F /* Frameworks */,
+				EB9A5BD813EB0C7E004B555F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9A5BD813EB0C7E004B555F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5BD713EB0C7E004B555F /* Indian Kit.app */,
+				EB9A5C0113EB0C7E004B555F /* Indian KitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9A5BDA13EB0C7E004B555F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5BDB13EB0C7E004B555F /* UIKit.framework */,
+				EB9A5BDD13EB0C7E004B555F /* Foundation.framework */,
+				EB9A5BDF13EB0C7E004B555F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB9A5BE113EB0C7E004B555F /* Indian Kit */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5BEA13EB0C7E004B555F /* Indian_KitAppDelegate.h */,
+				EB9A5BEB13EB0C7E004B555F /* Indian_KitAppDelegate.m */,
+				EB9A5BED13EB0C7E004B555F /* MainWindow.xib */,
+				EB9A5BF013EB0C7E004B555F /* FirstViewController.h */,
+				EB9A5BF113EB0C7E004B555F /* FirstViewController.m */,
+				EB9A5BF313EB0C7E004B555F /* SecondViewController.h */,
+				EB9A5BF413EB0C7E004B555F /* SecondViewController.m */,
+				EB9A5BF613EB0C7E004B555F /* FirstView.xib */,
+				EB9A5BF913EB0C7E004B555F /* SecondView.xib */,
+				EBA35CA713EBA5C500AD5656 /* MoneyViewInfo.xib */,
+				EB9A5BE213EB0C7E004B555F /* Supporting Files */,
+			);
+			path = "Indian Kit";
+			sourceTree = "<group>";
+		};
+		EB9A5BE213EB0C7E004B555F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5BE313EB0C7E004B555F /* Indian Kit-Info.plist */,
+				EB9A5BE413EB0C7E004B555F /* InfoPlist.strings */,
+				EB9A5BE713EB0C7E004B555F /* Indian Kit-Prefix.pch */,
+				EB9A5BE813EB0C7E004B555F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB9A5C0713EB0C7E004B555F /* Indian KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5C0E13EB0C7E004B555F /* Indian_KitTests.h */,
+				EB9A5C1013EB0C7E004B555F /* Indian_KitTests.m */,
+				EB9A5C0813EB0C7E004B555F /* Supporting Files */,
+			);
+			path = "Indian KitTests";
+			sourceTree = "<group>";
+		};
+		EB9A5C0813EB0C7E004B555F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9A5C0913EB0C7E004B555F /* Indian KitTests-Info.plist */,
+				EB9A5C0A13EB0C7E004B555F /* InfoPlist.strings */,
+				EB9A5C0D13EB0C7E004B555F /* Indian KitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9A5BD613EB0C7E004B555F /* Indian Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9A5C1413EB0C7E004B555F /* Build configuration list for PBXNativeTarget "Indian Kit" */;
+			buildPhases = (
+				EB9A5BD313EB0C7E004B555F /* Sources */,
+				EB9A5BD413EB0C7E004B555F /* Frameworks */,
+				EB9A5BD513EB0C7E004B555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indian Kit";
+			productName = "Indian Kit";
+			productReference = EB9A5BD713EB0C7E004B555F /* Indian Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9A5C0013EB0C7E004B555F /* Indian KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9A5C1713EB0C7E004B555F /* Build configuration list for PBXNativeTarget "Indian KitTests" */;
+			buildPhases = (
+				EB9A5BFC13EB0C7E004B555F /* Sources */,
+				EB9A5BFD13EB0C7E004B555F /* Frameworks */,
+				EB9A5BFE13EB0C7E004B555F /* Resources */,
+				EB9A5BFF13EB0C7E004B555F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9A5C0613EB0C7E004B555F /* PBXTargetDependency */,
+			);
+			name = "Indian KitTests";
+			productName = "Indian KitTests";
+			productReference = EB9A5C0113EB0C7E004B555F /* Indian KitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9A5BCE13EB0C7E004B555F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EB9A5BD113EB0C7E004B555F /* Build configuration list for PBXProject "Indian Kit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB9A5BCC13EB0C7E004B555F;
+			productRefGroup = EB9A5BD813EB0C7E004B555F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9A5BD613EB0C7E004B555F /* Indian Kit */,
+				EB9A5C0013EB0C7E004B555F /* Indian KitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9A5BD513EB0C7E004B555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5BE613EB0C7E004B555F /* InfoPlist.strings in Resources */,
+				EB9A5BEF13EB0C7E004B555F /* MainWindow.xib in Resources */,
+				EB9A5BF813EB0C7E004B555F /* FirstView.xib in Resources */,
+				EB9A5BFB13EB0C7E004B555F /* SecondView.xib in Resources */,
+				EBA35CA813EBA5C500AD5656 /* MoneyViewInfo.xib in Resources */,
+				EBA35CAA13EBFAE500AD5656 /* Default@2x.png in Resources */,
+				EBA35CAC13EBFAEC00AD5656 /* Default.png in Resources */,
+				EBA35CB213EC020700AD5656 /* BackgroundMoney@2x.png in Resources */,
+				EBA35CB413EC022C00AD5656 /* BackgroundMoney.png in Resources */,
+				EB8DADE113F1A6A0000F0BA4 /* tabbarmoney@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9A5BFE13EB0C7E004B555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5C0C13EB0C7E004B555F /* InfoPlist.strings in Resources */,
+				EB9A5C0F13EB0C7E004B555F /* Indian_KitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB9A5BFF13EB0C7E004B555F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9A5BD313EB0C7E004B555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5BE913EB0C7E004B555F /* main.m in Sources */,
+				EB9A5BEC13EB0C7E004B555F /* Indian_KitAppDelegate.m in Sources */,
+				EB9A5BF213EB0C7E004B555F /* FirstViewController.m in Sources */,
+				EB9A5BF513EB0C7E004B555F /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9A5BFC13EB0C7E004B555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A5C1113EB0C7E004B555F /* Indian_KitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9A5C0613EB0C7E004B555F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9A5BD613EB0C7E004B555F /* Indian Kit */;
+			targetProxy = EB9A5C0513EB0C7E004B555F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB9A5BE413EB0C7E004B555F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9A5BE513EB0C7E004B555F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB9A5BED13EB0C7E004B555F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9A5BEE13EB0C7E004B555F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EB9A5BF613EB0C7E004B555F /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9A5BF713EB0C7E004B555F /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		EB9A5BF913EB0C7E004B555F /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9A5BFA13EB0C7E004B555F /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		EB9A5C0A13EB0C7E004B555F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9A5C0B13EB0C7E004B555F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9A5C1213EB0C7E004B555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB9A5C1313EB0C7E004B555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EB9A5C1513EB0C7E004B555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indian Kit/Indian Kit-Prefix.pch";
+				INFOPLIST_FILE = "Indian Kit/Indian Kit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB9A5C1613EB0C7E004B555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indian Kit/Indian Kit-Prefix.pch";
+				INFOPLIST_FILE = "Indian Kit/Indian Kit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB9A5C1813EB0C7E004B555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indian Kit.app/Indian Kit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indian KitTests/Indian KitTests-Prefix.pch";
+				INFOPLIST_FILE = "Indian KitTests/Indian KitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EB9A5C1913EB0C7E004B555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indian Kit.app/Indian Kit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indian KitTests/Indian KitTests-Prefix.pch";
+				INFOPLIST_FILE = "Indian KitTests/Indian KitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9A5BD113EB0C7E004B555F /* Build configuration list for PBXProject "Indian Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9A5C1213EB0C7E004B555F /* Debug */,
+				EB9A5C1313EB0C7E004B555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9A5C1413EB0C7E004B555F /* Build configuration list for PBXNativeTarget "Indian Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9A5C1513EB0C7E004B555F /* Debug */,
+				EB9A5C1613EB0C7E004B555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9A5C1713EB0C7E004B555F /* Build configuration list for PBXNativeTarget "Indian KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9A5C1813EB0C7E004B555F /* Debug */,
+				EB9A5C1913EB0C7E004B555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9A5BCE13EB0C7E004B555F /* Project object */;
+}

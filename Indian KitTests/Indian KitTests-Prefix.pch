@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Indian KitTests' target in the 'Indian KitTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
